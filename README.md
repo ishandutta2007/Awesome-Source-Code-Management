@@ -1,227 +1,145 @@
-# Awesome-Source-Code-Management
-
-## Top Source Code Management Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Version Control, Repository Hosting & Code Collaboration*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Source Code Management (SCM)**. These tools help teams store, version, review, and collaborate on code — from centralized version control systems to distributed Git platforms and self-hosted forges.
-
-
-
-**Examples** include Azure Repos, GitHub, GitLab, Bitbucket, AWS CodeCommit, SourceForge, Perforce Helix Core, Gitea, RhodeCode, and Phabricator (the category leaders).
-
-
-
-**Open-source emphasis**: Source code management is one of the strongest open-source domains. **GitLab CE**, **Gitea**, **Forgejo**, **Gogs**, and **Savane** provide production-grade self-hosted alternatives, while **Git** itself is the foundational open-source version control system powering nearly everything. This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[GitHub](https://github.com/)**  
-
-  The world's largest code hosting platform with 100M+ developers. Features repositories, pull requests, Actions CI/CD, Packages, and Copilot AI. **The de facto standard for open-source collaboration** — free for public and private repos with unlimited collaborators .
-
-
-
-- **[GitLab](https://about.gitlab.com/)**  
-
-  Complete DevOps platform with SCM, CI/CD, security scanning, and project management. **Available as SaaS or self-managed** . Free tier includes 5 GB storage and 400 CI/CD minutes per month .
-
-
-
-- **[Bitbucket](https://bitbucket.org/)**  
-
-  Atlassian's Git hosting with deep Jira and Confluence integration. Free for up to 5 users; paid tiers for larger teams. **Best for teams already in the Atlassian ecosystem** .
-
-
-
-- **[Azure Repos](https://azure.microsoft.com/en-us/products/devops/repos/)**  
-
-  Microsoft's Git and TFVC hosting within Azure DevOps. **Best for organizations using Azure DevOps Pipelines and Boards** .
-
-
-
-- **[AWS CodeCommit](https://aws.amazon.com/codecommit/)**  
-
-  AWS's managed Git service with IAM integration and encryption. **Best for AWS-native teams** needing private repositories.
-
-
-
-- **[SourceForge](https://sourceforge.net/)**  
-
-  Veteran open-source hosting platform (since 1999) with repositories, downloads, and project management. **Historically significant** but less active than modern alternatives .
-
-
-
-- **[Perforce Helix Core](https://www.perforce.com/products/helix-core)**  
-
-  Enterprise-grade centralized version control for large binary files, game development, and embedded systems. **The standard for AAA game studios** .
-
-
-
-- **[RhodeCode](https://rhodecode.com/)**  
-
-  Enterprise SCM platform supporting Git, Mercurial, and SVN with unified access control. **Best for organizations managing multiple VCS types** .
-
-
-
-- **[Phabricator](https://phacility.com/phabricator/)**  
-
-  Suite of open-source tools including Differential (code review), Maniphest (bug tracking), and Diffusion (repository browser). **Note: development ended in 2021** — community forks like Phorge continue .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[GitLab Community Edition](https://gitlab.com/gitlab-org/gitlab)**  
-
-  **The leading open-source DevOps platform**, MIT licensed core with 25,000+ GitHub stars . **Full SCM with CI/CD, container registry, security scanning, and project management** in one application . Self-hosted on your infrastructure or cloud . **The most complete open-source GitHub alternative** — used by 100,000+ organizations . **Best for teams wanting an all-in-one DevOps platform with maximum features** .
-
-
-
-- **[Gitea](https://github.com/go-gitea/gitea)**  
-
-  **Lightweight, fast, and easy-to-install Git service**, MIT licensed with 45,000+ GitHub stars . **Written in Go** — single binary with minimal resource usage . Features repositories, pull requests, issues, wikis, and **built-in Actions-style CI** . **Runs on a Raspberry Pi** . **The best choice for self-hosted Git when simplicity matters** — up and running in minutes .
-
-
-
-- **[Forgejo](https://codeberg.org/forgejo/forgejo)**  
-
-  **Community-hardened fork of Gitea** under the Codeberg umbrella, GPL-3.0 licensed . **Focus on software freedom and governance** — independent of any single vendor . **The most principled open-source forge** — community-owned and transparent . **Best for organizations valuing governance and long-term independence** .
-
-
-
-- **[Gogs](https://github.com/gogs/gogs)**  
-
-  **Painless self-hosted Git service**, MIT licensed with 45,000+ GitHub stars . **The original lightweight Go-based Git service** — predecessor to Gitea and Forgejo . **Minimal and stable** — best for simple repository hosting .
-
-
-
-- **[Sourcegraph](https://github.com/sourcegraph/sourcegraph)**  
-
-  **Code intelligence platform** for searching, navigating, and understanding large codebases, Apache-2.0 licensed with 10,000+ GitHub stars . **Universal code search across repositories** with code navigation, insights, and batch changes . **The best open-source code search tool** — complements any SCM platform .
-
-
-
-- **[Phorge](https://we.phorge.it/)**  
-
-  **Community fork of Phabricator**, continuing development after upstream ended in 2021 . Apache-2.0 licensed . **Full suite: Differential code review, Maniphest bug tracking, Diffusion repository browser, and more** . **Best for organizations already using Phabricator** needing continued maintenance .
-
-
-
-- **[Savane](https://savannah.gnu.org/)**  
-
-  **Free software hosting platform** used by GNU Savannah, GPL licensed . Features repository hosting (Git, SVN, Mercurial), bug tracking, task management, and mailing lists . **The oldest open-source forge still in use** — powers GNU's official hosting .
-
-
-
-- **[Kallithea](https://github.com/kallithea/kallithea)**  
-
-  **Open-source SCM supporting Git and Mercurial**, GPL-3.0 licensed . Fork of RhodeCode CE after license changes . Features repository management, user groups, and web-based administration . **Best for teams needing multi-VCS support** .
-
-
-
-- **[RhodeCode Community Edition](https://code.rhodecode.com/)**  
-
-  **Open-source SCM platform** supporting Git, Mercurial, and SVN, AGPL licensed . Features unified access control, repository management, and web interface . **Best for organizations managing multiple version control systems** .
-
-
-
-- **[OneDev](https://github.com/theonedev/onedev)**  
-
-  **All-in-one DevOps platform with SCM, CI/CD, and issue tracking**, MIT licensed . **Self-hosted with a single Java binary** . Features Git hosting, pull requests, code search, and **powerful CI/CD** . **Best for teams wanting GitLab-like features with simpler deployment** .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Git** — The foundational distributed version control system, GPL-2.0 licensed . **Everything in this list depends on Git** — Linus Torvalds' creation that changed software development forever .
-
-- **Mercurial** — Distributed version control system, GPL-2.0 licensed . **Simpler alternative to Git** with strong Windows support — used by Facebook/Meta at scale .
-
-- **Apache Subversion (SVN)** — Centralized version control system, Apache-2.0 licensed . **The pre-Git standard** — still used in enterprises and game development .
-
-- **CVS** — The original version control system. **Historically significant** but largely obsolete .
-
-- **Fossil** — Distributed version control with built-in wiki, bug tracking, and forum. **Single binary** — used by SQLite .
-
-
-
-**Frameworks for building custom SCM solutions**: Choose based on scale and requirements. **GitLab CE** for a complete DevOps platform with CI/CD and security scanning . **Gitea** for lightweight, fast Git hosting with minimal overhead . **Forgejo** for community-governed Git hosting with strong software freedom principles . **OneDev** for all-in-one DevOps with simple deployment . **Sourcegraph** for code intelligence and search across large codebases . **Perforce Helix Core** for game development and large binary files . Note that true enterprise SCM with global scale, advanced security scanning, and integrated DevOps pipelines remains primarily commercial territory; open-source stacks provide strong version control, repository hosting, and code review foundations that require integration for complete DevOps workflows.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Source code management platforms handle sensitive intellectual property and credentials. Self-hosted solutions require proper security hardening, access controls, and backup procedures.
-
-- **GitLab CE and Gitea have different feature sets** than their commercial counterparts — GitLab CE lacks some Ultimate features (security dashboards, compliance), and Gitea lacks built-in CI/CD runners (though Actions-style CI is available) . Evaluate gaps before migration.
-
-- **Phabricator development ended in 2021** — use **Phorge** for continued maintenance .
-
-- **License considerations**: GitLab CE is MIT, Gitea is MIT, Forgejo is GPL-3.0 — review compatibility with your organization's policies .
-
-- The open-source ecosystem provides strong version control, repository hosting, and code review foundations, but **global infrastructure, advanced security scanning, and integrated DevOps pipelines** remain primarily commercial offerings.
-
-
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Source Code Management Banner" width="100%" />
+</p>
+
+# 🚀 Awesome Source Code Management (SCM) Ecosystem 🛠️
+
+<p align="left">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Source-Code-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Source-Code-Management?style=social" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Source-Code-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Source-Code-Management?style=social" alt="Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Source-Code-Management/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+> **A comprehensive, curated list of SaaS Source Code Management (SCM) platforms, self-hosted Git forges, Version Control Systems (VCS), enterprise code collaboration tools, and open-source GitHub repositories.**
+
+**Last updated:** October 2026
 
 ---
 
+## 📚 Table of Contents
+- [🌐 SaaS / Hosted SCM Platforms](#-saas--hosted-scm-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [💡 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+- [💖 Support](#-support)
+- [⭐ Star History](#-star-history)
 
+---
 
-**Made for developers, DevOps engineers, and organizations seeking source code sovereignty.**
+## 🌐 SaaS / Hosted SCM Platforms
 
-Let's make source code management more open, transparent, and collaborative.
+### 📈 Market Size & Industry Structure
+> **Market Insights:** The global Source Code Management & DevOps market is estimated at **\$10.5 Billion+ (2026)** and is growing at ~18–20% CAGR. The sector is **highly concentrated (winner-take-most)**, dominated by Microsoft (GitHub, Azure DevOps) and GitLab, with specialized enterprise niches held by Atlassian (Bitbucket), AWS, and Perforce.
+
+### 🏢 SaaS Platform Breakdown
+
+| Rank | Platform | Company Size / Revenue / Valuation | Starting Paid Tier Pricing | Free Tier Limit | Description |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **1** | 🐙 **[GitHub](https://github.com/)** | **\$3.2 Trillion** *(Microsoft Parent Market Cap; \$1B+ ARR)* | **\$4** per user/month (Team) | Unlimited public/private repos, 2,000 Actions CI/CD mins/mo, 500MB Packages storage, 120 Codespaces core-hours/mo | The world's largest Git hosting platform with 100M+ developers, native Actions CI/CD, and Copilot AI assistance. |
+| **2** | ☁️ **[Azure Repos](https://azure.microsoft.com/en-us/products/devops/repos/)** | **\$3.2 Trillion** *(Microsoft Parent Market Cap)* | **\$6** per user/month (Azure DevOps Services) | 5 free users, 1,800 free CI/CD pipeline minutes/month (1 parallel job) | Microsoft's enterprise Git and TFVC hosting deeply integrated with Azure Pipelines, Boards, and Enterprise IAM. |
+| **3** | 📦 **[AWS CodeCommit](https://aws.amazon.com/codecommit/)** | **\$1.9 Trillion** *(Amazon Parent Market Cap)* | **\$1** per active user/month (after 5 free users) | 5 active users/mo, 50 GB storage/mo, 10,000 Git requests/mo | AWS native Git hosting with AWS IAM access controls, KMS encryption, and seamless AWS cloud integrations. |
+| **4** | 🔷 **[Bitbucket](https://bitbucket.org/)** | **\$48 Billion** *(Atlassian Market Cap)* | **\$3** per user/month (Standard tier) | 5 users, 50 GB storage, 500 Build minutes/month | Atlassian's Git solution featuring tight Jira, Confluence, and Trello integrations for software engineering workflows. |
+| **5** | 🦊 **[GitLab](https://about.gitlab.com/)** | **\$8.5 Billion** *(Market Cap; \$600M+ ARR)* | **\$29** per user/month (Premium tier) | 5 users per private namespace, 400 compute CI/CD mins/mo, 10 GB project storage | Complete all-in-one DevOps platform combining SCM, CI/CD pipelines, security audits, and issue tracking. |
+| **6** | ⚡ **[Perforce Helix Core](https://www.perforce.com/products/helix-core)** | **\$750 Million** *(Estimated Annual Revenue; PE Backed)* | **\$480** per user/year (Enterprise Tier) | Free for up to 5 users & 20 workspaces (Full enterprise features included) | Enterprise centralized version control optimized for massive binary assets, game engine assets (UE/Unity), and embedded hardware code. |
+| **7** | 🔒 **[RhodeCode Enterprise](https://rhodecode.com/)** | **\$3.5 Million** *(Total Funding; ~\$3M ARR)* | **\$8** per user/month (Enterprise Edition) | 10 users free (Community Edition with multi-VCS support) | Unified enterprise source code management system supporting Git, Mercurial, and Subversion (SVN) under one management interface. |
+| **8** | 🏺 **[SourceForge](https://sourceforge.net/)** | **Privately Held** *(BIXink / Slashdot Media)* | **Free / Ad-Supported** (Enterprise custom hosting) | Unlimited public open-source project hosting & distribution | Veteran code repository and software mirror distribution network active since 1999. |
+| **9** | 🐘 **[Phabricator](https://phacility.com/phabricator/)** | **Discontinued** *(Upstream ended 2021)* | **N/A** (Legacy SaaS retired) | Open-source self-hosted code (Phacility hosted service closed) | Suite of open-source software development tools (Differential, Maniphest). Continued via community fork **Phorge**. |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+Below is a curated collection of top open-source Source Code Management repositories, Git web interfaces, code intelligence engines, and distributed version control systems, sorted by GitHub stargazers count:
+
+- 🦊 **[GitLab Community Edition](https://gitlab.com/gitlab-org/gitlab)**  
+  [![Stars](https://img.shields.io/github/stars/gitlaborg/gitlab?style=social&color=white)](https://github.com/gitlaborg/gitlab/stargazers)  
+  **The leading open-source DevOps platform.** MIT licensed core providing SCM, built-in CI/CD runners, container registry, and security auditing in a self-hosted stack.
+
+- 🦔 **[Gitea](https://github.com/go-gitea/gitea)**  
+  [![Stars](https://img.shields.io/github/stars/go-gitea/gitea?style=social&color=white)](https://github.com/go-gitea/gitea/stargazers)  
+  **Lightweight, ultra-fast Go Git service.** Features pull requests, wiki, issue tracker, and built-in Actions CI runner capable of running on minimal hardware like Raspberry Pi.
+
+- 🐶 **[Gogs](https://github.com/gogs/gogs)**  
+  [![Stars](https://img.shields.io/github/stars/gogs/gogs?style=social&color=white)](https://github.com/gogs/gogs/stargazers)  
+  **Painless self-hosted Git service written in Go.** Extremely low resource footprint, cross-platform deployment, and fast setup.
+
+- 🔍 **[Sourcegraph](https://github.com/sourcegraph/sourcegraph)**  
+  [![Stars](https://img.shields.io/github/stars/sourcegraph/sourcegraph?style=social&color=white)](https://github.com/sourcegraph/sourcegraph/stargazers)  
+  **Universal code search and code intelligence engine.** Enables cross-repository code navigation, structural search, dependency tracing, and automated batch changes.
+
+- 📦 **[Git LFS](https://github.com/git-lfs/git-lfs)**  
+  [![Stars](https://img.shields.io/github/stars/git-lfs/git-lfs?style=social&color=white)](https://github.com/git-lfs/git-lfs/stargazers)  
+  **Git Large File Storage extension.** Replaces large binary files, audio, video, and dataset assets with text pointers inside Git repositories.
+
+- 🏰 **[Forgejo](https://codeberg.org/forgejo/forgejo)**  
+  [![Stars](https://img.shields.io/github/stars/forgejo/forgejo?style=social&color=white)](https://github.com/forgejo/forgejo/stargazers)  
+  **Community-governed, non-profit fork of Gitea** hosted under Codeberg. Focused on software freedom, open governance, and vendor independence.
+
+- ⚡ **[OneDev](https://github.com/theonedev/onedev)**  
+  [![Stars](https://img.shields.io/github/stars/theonedev/onedev?style=social&color=white)](https://github.com/theonedev/onedev/stargazers)  
+  **All-in-one DevOps platform with Git management and visual CI/CD pipeline builder.** Single Java binary deployment with built-in Kubernetes support.
+
+- 🌳 **[GitAhead](https://github.com/gitahead/gitahead)**  
+  [![Stars](https://img.shields.io/github/stars/gitahead/gitahead?style=social&color=white)](https://github.com/gitahead/gitahead/stargazers)  
+  **Graphical user interface for Git repositories.** Cross-platform desktop client with native code diff viewer and repository management features.
+
+- 🐍 **[Kallithea](https://github.com/kallithea/kallithea)**  
+  [![Stars](https://img.shields.io/github/stars/kallithea/kallithea?style=social&color=white)](https://github.com/kallithea/kallithea/stargazers)  
+  **Open-source SCM supporting dual VCS engines (Git & Mercurial).** Python-based repository forge featuring fine-grained access control and code reviews.
+
+- 🏛️ **[Phorge](https://we.phorge.it/)**  
+  [![Stars](https://img.shields.io/github/stars/phacility/phabricator?style=social&color=white)](https://github.com/phacility/phabricator/stargazers)  
+  **Community-maintained open-source fork of Phabricator.** Includes Differential code review engine, Diffusion repository browser, and Maniphest ticket management.
+
+- 📜 **[Savane](https://savannah.gnu.org/)**  
+  [![Stars](https://img.shields.io/github/stars/ashward/savane?style=social&color=white)](https://github.com/ashward/savane/stargazers)  
+  **GNU Savannah web-based software hosting platform.** Powers official GNU free software hosting with support for Git, Subversion, CVS, and bug tracking.
+
+---
+
+### 🛠️ Core Version Control Engines & Legacy Tools
+- ⚡ **Git** — *The foundational distributed version control system created by Linus Torvalds powering modern software development.*
+- 🪶 **Mercurial** — *Distributed version control system engineered for high performance on large codebases.*
+- 🐢 **Apache Subversion (SVN)** — *Enterprise centralized version control system designed for binary assets and legacy enterprise codebases.*
+- 🦴 **CVS (Concurrent Versions System)** — *Pioneering centralized version control system, historically significant for early open-source projects.*
+- 🦕 **Fossil** — *Distributed VCS created by SQLite authors containing integrated bug tracking, wiki, and web server in a single C binary.*
+
+---
+
+## 💡 How to Contribute
+
+1. 🍴 **Fork** this repository.
+2. 📝 Add or edit entries in `README.md` following the consistent markdown formatting.
+3. 🔎 Include: Product Name, URL, concise description, starting price, and open-source license / hosting model.
+4. 📬 Submit a **Pull Request (PR)** with a clear summary of changes.
+
+---
+
+## ⚠️ Disclaimer
+
+- This repository is a **community-curated list** provided for informational and educational purposes.
+- Features, storage quotas, and tier pricing for SaaS platforms are subject to change by vendor providers.
+- Self-hosted SCM solutions require security audits, access control hardening, and reliable backup policies to protect code IP.
+
+---
+
+## 💖 Support
+
+If you find this repository helpful, please consider supporting the project:
+
+- ⭐ **Star** this repository to increase visibility!
+- 🔀 **Fork** and contribute your favorite source code management tools.
+- 📢 **Share** with your DevOps teams and developer friends.
+- ☕ **Sponsor the Maintainer:** [![Sponsor](https://img.shields.io/badge/Sponsor-GitHub-ea4aaa?style=flat&logo=github)](https://github.com/sponsors/ishandutta2007)
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Source-Code-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Source-Code-Management&type=date&legend=top-left)
+
+---
+
+<p align="center">Made with ❤️ for developers, DevOps engineers, and open-source contributors worldwide.</p>
